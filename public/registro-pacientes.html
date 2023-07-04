@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Hospital</title>
+    <link rel="stylesheet" href="/stylesheets/stayle-formulario-hospital.css">
+</head>
+
+<body>
+    <header>
+        <h1>HOSPITAL MUNICIPAL</h1>
+    </header>
+    <main>
+        <form action="./guardar-pacientes" method="post">
+            <h2>REGISTRO DE PACIENTES</h2>
+            <label for="Nombre">Nombre:<span> *</span></label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="Apellido">Apellido:<span> *</span></label><br>
+            <input type="text" id="apellido" name="apellido" required><br><br>
+            <label for="id">Cedula:<span> * </span></label><br>
+            <input type="text" id="cedula" name="cedula" required><br><br>
+            <label for="edad">Edad :<span> *</span></label><br>
+            <input type="number" id="edad" name="edad" required><br><br>
+            <label for="telefono">Telefono:<span> *</span></label><br>
+            <input type="tel" id="telefono" name="telefono" required><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <script src="volver.js"></script>
+</body>
+
+</html>

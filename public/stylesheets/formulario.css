@@ -1,0 +1,37 @@
+
+/* Estilos generales del formulario */
+body{
+    background: url(https://www.sanvicentefundacion.com/sites/default/files/articles/banner-rionegro-flores.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Estilos de los campos de entrada */
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo de los botones */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
